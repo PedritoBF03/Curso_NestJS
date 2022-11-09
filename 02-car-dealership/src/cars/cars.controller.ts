@@ -31,7 +31,7 @@ export class CarsController {
     // return this.cars[id];
 
     //Usamos el servicio para elegir un solo coche
-    return this.carsService.findOneById( +id );
+    return this.carsService.findOneById( id );
   }
 
   @Post()
